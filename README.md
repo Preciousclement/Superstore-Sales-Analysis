@@ -111,10 +111,12 @@ END
 
 Published on Tableau Public: 
 
-Screenshots:
-<
+Images:
+<img width="652" alt="Screenshot 2024-09-12 014454" src="https://github.com/user-attachments/assets/51c43ccb-4368-4d0e-a0ab-81dd46b0b999">
+
+<img width="651" alt="Screenshot 2024-09-12 014511" src="https://github.com/user-attachments/assets/59ebaa28-35ea-4edb-bd7e-717a6b3c6236">
+
 
 ### Key Insights
-1. 
 
 
