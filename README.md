@@ -52,43 +52,45 @@ The dataset consists of 2,500 rows with attributes such as user ID, subscription
 
 ```CALCULATED FIELDS CREATED
 
--- CY of Sales
+-- CY of Sales --
 IF YEAR([Order Date]) = [Select Year] THEN [Sales]
 END
 
--- CY Customer
+-- CY Customer --
 IF YEAR([Order Date]) = [Select Year] THEN [Customer ID] 
 END
-
 **Formular was also used for CY profit, quantity and orders**
 
 
--- PY of Sales
+
+-- PY of Sales --
 IF YEAR([Order Date]) = [Select Year] - 1 THEN [Sales]
 END
 
--- PY Customers
+-- PY Customers --
 IF YEAR([Order Date]) = [Select Year] - 1 THEN [Customer ID] 
 END
-
 **Formular was also used for PY profit, quantity and orders**
 
--- % Difference of Sales between years
+
+
+-- % Difference of Sales between years --
 (SUM([CY Sales]) - SUM([PY Sales])) / SUM([PY Sales])
 
--- % Difference of Customers between years
+-- % Difference of Customers between years --
 (COUNTD([CY Customers]) - COUNTD([PY Customers])) / COUNTD([PY Customers])
-
 **Formular was also used for % Diff of profit, quantity and orders**
 
--- Min/Max of Sales
+
+
+-- Min/Max of Sales --
 IF SUM([CY Sales])= WINDOW_MAX(SUM([CY Sales]))
 THEN SUM([CY Sales])
 ELSEIF SUM([CY Sales])= WINDOW_MIN(SUM([CY Sales]))
 THEN SUM([CY Sales])
 END
 
--- Min/Mx of Customers
+-- Min/Mx of Customers --
 IF COUNTD([CY Customers]) = WINDOW_MAX(COUNTD([CY Customers]))
 THEN COUNTD([CY Customers])
 ELSEIF COUNTD([CY Customers]) = WINDOW_MIN(COUNTD([CY Customers]))
@@ -101,7 +103,7 @@ END
 - Drew Mockups for containers
 - Built the container stgructures
 - Pull all the charts together
-- Formatted the charts by distributing evenly,including legends and adding inner and outer paddings
+- Formatted the charts by distributing evenly, including legends and adding inner & outer paddings
 - Included Icons, Filter and Dynamics
   
 **Dashbord**
@@ -112,9 +114,6 @@ Screenshot:
 <
 
 ### Key Insights
-1. Subscription Preferences: Premium subscriptions had the most highest average revenue generated, followed by Basic and Standard plans.
-2. Revenue Patterns: There is a consistent monthly revenue stream, with Premium plans contributing the most.
-3. Demographics: The majority of users are between the ages of 30-50, with a relatively even distribution across genders.
-4. Most users access Netflix via tablet and smartphones.
+1. 
 
 
