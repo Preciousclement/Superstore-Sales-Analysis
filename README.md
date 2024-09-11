@@ -1,6 +1,5 @@
 # Superstore Sales Analysis
 This project involves analyzing sales data from a fictional superstore to uncover key business insights. 
-The analysis includes exploring sales patterns, customer demographics, product performance, and regional trends. Using Excel and Tableau, the project aims to provide actionable recommendations for optimizing inventory, improving sales strategies, and enhancing customer satisfaction.
 
 ## Table of Content
 - [Project Overview](#project-overview)
@@ -13,11 +12,12 @@ The analysis includes exploring sales patterns, customer demographics, product p
 
   
 ### Project Overview
-This project focuses on analyzing a Netflix userbase dataset, aiming to reveal insights related to subscription types, revenue patterns, and user demographics. 
+The analysis of this project includes exploring sales patterns, previous year perfomance from current year, product performance, profits and regional trends . 
+Using Excel and Tableau, the project aims to provide actionable recommendations for optimizing inventory, improving sales strategies, and enhancing customer satisfaction.
 
 ### Data Source 
-The primary data set used for this analysis is "  " file from kaggle.com.
-The dataset consists of 2,500 rows with attributes such as user ID, subscription type, monthly revenue, join date, last payment date, country, age, gender, device, and plan duration 
+The primary data set used for this analysis is from kaggle.com
+The dataset consists of 9,995 rows with the folllowing attributes; Row ID, Order ID,	Order Date,	Ship Date,	Ship Mode,	Customer ID,	Customer Name,	Segment,	Country,	City,	State,	Postal Code,	Region,	Product ID,	Category,	Sub-Category,	Product Name,	Sales	Quantity,	Discount and	Profit	 	 
 
 ### Tools Used
 - Excel
@@ -29,7 +29,7 @@ The dataset consists of 2,500 rows with attributes such as user ID, subscription
 3. Visualization: Create visual representations of the insights to facilitate understanding and decision-making.
 
 ### Steps Taken
-#### 1. Analyze Requirements
+#### 1. Analyzed Requirements
 - Understood the data
 - The right requirements we collected, the right charts were choosen, as well as the colors
 - Drew a mockup for guidance
@@ -110,7 +110,7 @@ END
 
 Published on Tableau Public: 
 
-Screenshot:
+Screenshots:
 <
 
 ### Key Insights
