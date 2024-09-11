@@ -41,11 +41,11 @@ The dataset consists of 9,995 rows with the folllowing attributes; Row ID, Order
 - Crosschecked data types
 
 - Created Calculated Fields:
-        1. Current Year, Previous Year
-        2. CY of Profit, Sales, Quantity, Orders and Customers
-        3. PY of Profit, Sales, Quantity, Orders and Customers
-        4. Min/Max of Profit, Sales, Quantity, orders and Customers
-        5. % Difference of Profit, Sales, Quantity, orders and Customers
+        - Current Year, Previous Year
+        - CY of Profit, Sales, Quantity, Orders and Customers
+        - PY of Profit, Sales, Quantity, Orders and Customers
+        - Min/Max of Profit, Sales, Quantity, orders and Customers
+        - % Difference of Profit, Sales, Quantity, orders and Customers
 - Inputed a "select year" parameter
 - Build charts accordingly
 - Formatted the charts by cleaning up axis & headers. coloring and tooltip
