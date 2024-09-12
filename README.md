@@ -109,7 +109,7 @@ END
   
 **Dashbord**
 
-Published on Tableau Public: 
+Published on Tableau Public(Dynamic): https://public.tableau.com/views/SuperstoreSales2_17260991531630/CustomersDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 
 
