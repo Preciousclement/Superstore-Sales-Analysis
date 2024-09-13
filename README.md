@@ -7,7 +7,7 @@ This project involves analyzing sales data from a fictional superstore to uncove
 - [Tools Used](#tools-used)
 - [Objectives](#objectives)
 - [Steps Taken](#steps-taken)
-- [Key Insights](#key-insights)
+- [Key Insight for 2023](#key-insight-for-2023)
 - [Conclusion](#conclusion)
 
   
@@ -119,6 +119,29 @@ Published on Tableau Public(Dynamic): https://public.tableau.com/views/Superstor
 
 
 
-### Key Insights
+### Key Insight for 2023
 
+1. **Overall Sales Performance:**
+   - **Total Sales:** The total sales for 2023 reached **$733k**, which is a **20.4% increase** compared to the previous year, showcasing a positive growth trend.
+   - **Total Profit:** Profits for the year totaled **$93k**, reflecting a **14.2% increase** year-over-year.
+   - **Total Quantity Sold:** A total of **12k units** were sold in 2023.
 
+2. **Sales & Profit Trend:**
+   - The **average sales per month** for 2023 were **$14k**, while the **average profit per month** was **$2k**. This steady trend reflects consistent performance throughout the year.
+
+3. **Customer Growth & Sales per Customer:**
+   - In 2023, we saw a total of **693 customers**, which is an **8.6% increase** compared to the previous year.
+   - The **average sales per customer** was **$1,058**, representing a **20.4% increase** year-over-year, indicating stronger spending or larger orders from the customer base.
+
+4. **Total Orders:**
+   - The total number of orders for 2023 was **1,687**, with a **28.3% increase** compared to 2022, highlighting strong purchasing behavior.
+
+5. **Regional Sales Distribution:**
+   - The **West region** led in total sales, followed by the **East**, then **Central**, and lastly, the **South**. This breakdown points to stronger market penetration in the Western and Eastern regions.
+
+6. **Top 10 Customers by Profit:**
+   - The top 10 customers in 2023 contributed significantly to profits, with the highest-earning customer generating **$6,781** in profit and **$14,023** in sales. This emphasizes the importance of high-value customers to the overall profit margins.
+
+### Conclusion
+
+2023 marked strong growth with a **20.4% sales increase** and **14.2% profit rise**. Higher order volumes and customer engagement, especially from top clients, drove success. The **West region** led in sales, while other regions also showed growth potential. Moving forward, the focus should be on optimizing customer relationships and expanding regional efforts to sustain momentum.
